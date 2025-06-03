@@ -1,0 +1,17 @@
+[project]
+name = "agent-engine-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "cloud-sql-python-connector[psycopg2]>=1.18.2",
+    "google-cloud-aiplatform[agent-engines,langchain]>=1.95.1",
+    "ipykernel>=6.29.5",
+    "langchain-google-cloud-sql-pg>=0.14.0",
+    "langchain-openai>=0.3.18",
+    "langgraph>=0.3.34",
+    "pg8000>=1.31.2",
+    "psycopg2-binary>=2.9.10",
+    "python-dotenv>=1.1.0",
+]
